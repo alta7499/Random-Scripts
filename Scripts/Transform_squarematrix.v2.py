@@ -1,3 +1,5 @@
+## developed with chatGPT assistance. modified and verified by alta7499
+## The script accepts output from plink2's fst. the script transform a FST in the format of Pop1\tPop2\tFst_val into a square matrix, ready for Phylip input
 import argparse
 import pandas as pd
 import numpy as np

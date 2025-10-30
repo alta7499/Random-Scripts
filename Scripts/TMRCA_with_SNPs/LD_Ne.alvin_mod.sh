@@ -6,7 +6,9 @@
 ## It takes <12h for 400,000 markers
 ## MAF <5% will be filtered
 ## Use genetic map: /picb/humpopg/panyuwen/1000GP_Phase3/genetic_map_chr@_combined_b37.txt
-## Alvin MOD: change to plink2 for efficiency. takes 5 min for 400k snps. checked that plink2 and vcftools produced exact same R2 value, although for unknown reason compares about 300 less SNPs. but exact value. the script reamins, just change tools and column processing.
+## Credit: Pan Yuwen
+## alta7499 MOD: change to plink2 for efficiency. takes 5 min for 400k snps. checked that plink2 and vcftools produced exact same R2 value but exact value.
+## requires Ne.py script to estimate NE
 
 input=$1       ## prefix of .vcf.gz file
 samplelist=$2  ## samples to keep, sample list file OR "all"

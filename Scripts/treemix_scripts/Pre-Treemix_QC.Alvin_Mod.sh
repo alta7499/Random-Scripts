@@ -1,7 +1,10 @@
-#Make sure that the population was merged in plink binary format and Kinship analysis have been performed before proceeding with this code. Note that plink, plink2, bcftools must be installed
-#The .clust file contains three columns: samplename\tsamplename\tgroup
-#use plink as input
-#Merged population binary file = BIN
+# Make sure that the population was merged in plink binary format and Kinship analysis have been performed before proceeding with this code. Note that plink, plink2, bcftools must be installed
+# The .clust file contains three columns: samplename\tsamplename\tgroup
+# use plink as input
+# Merged population binary file = BIN
+# Credit: YapWS, modified for automation and efficiency by alta7499
+# this script requires companion script plink2treemix.py provided by TreeMix Author and plink2
+# usage: ./Pre-Treemix_QC.Alvin_Mod.sh [input] [clust_file] 
 file=$1
 clust=$2
 

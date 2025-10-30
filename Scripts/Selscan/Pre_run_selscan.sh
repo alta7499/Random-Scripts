@@ -3,8 +3,8 @@
 ### This script will perform :
 #	1. separating the VCF into multiple chromosome, 1 - 22.
 #	2. Keeps only SNPs, no multi allelics and no Indels.
-#	3. generate a map fie (in centimorgans) for the SNPs. required by selscan.
-### usage: ./Pre_run_selscan.sh vcf_file_without_vcf.gz_extension
+#	3. generate a map fie (in centimorgans) for the SNPs. required by selscan. map file will be in plink format
+### usage: ./Pre_run_selscan.sh vcf_without_vcf.gz_extension
 ### Use the output with "selscan.vcf.gz" to run the next script.
 
 VCF=$1
